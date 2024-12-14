@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 public class TwoIndupuruSushant implements Player {
-    static final String name = "TwoIndupuruSushant";
+    static final String name = "Sushant Indupuru";
     static final String strategy = "Markov chain statistical model";
     private static final int window = 4;
     private static final String[] choices={"r","p","s"};
