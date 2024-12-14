@@ -10,7 +10,7 @@ public class Example1 implements Player
 
     public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
     {
-        if(myMoves.length == 0)
+        if(myMoves[0] == null)
             return "r";
         else
             return "s";

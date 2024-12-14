@@ -24,7 +24,7 @@ public class PlayerExample implements Player
     public String move(String [] myMoves, String [] opponentMoves, int myScore, int opponentScore)
     {
         
-        return " ";
+        return "r";
     }
     /**
      * Returns the name of the player
