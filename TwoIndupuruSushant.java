@@ -6,7 +6,7 @@ import java.util.Map;
 public class TwoIndupuruSushant implements Player {
     static final String name = "Sushant Indupuru";
     static final String strategy = "Markov chain statistical model";
-    private static final int window = 4;
+    private static final int window = 3;
     private static final String[] choices={"r","p","s"};
     Map<String, String> winningMoves = new HashMap<String, String>();
     public TwoIndupuruSushant(){
